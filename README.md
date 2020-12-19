@@ -51,5 +51,5 @@ docker run -d --name freenom -e CRON="00 09 * * *" -v <path to config>:/conf rou
 
 [luolongfei/freenom](https://github.com/luolongfei/freenom) PHP自动续期脚本项目地址
 
-[oldiy/freenom-automatic-renewal](https://hub.docker.com/r/oldiy/freenom-automatic-renewal) 基于上面脚本的docker镜像地址（此作者很久没更新了，所以才自己写了）
+[oldiy/freenom-automatic-renewal](https://hub.docker.com/r/oldiy/freenom-automatic-renewal) 基于上面脚本的docker镜像地址（此作者很久没更新了，所以才自己写了） 
 
