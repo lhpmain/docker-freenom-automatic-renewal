@@ -4,7 +4,7 @@ MAINTAINER lhpmain <lhpmain@gmail.com>
 ENV CRON="00 09 * * *"
 
 RUN apk add git tzdata && \
-	git clone https://github.com/luolongfei/freenom.git && \
+	git clone https://github.com/lhpmain/freenom.git && \
 	cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 	apk del tzdata git && \
 	mkdir -p /confbak/ && \
